@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kurdia Utils</string>
+    <string name="kurdia_utils_share_via">اشتراک گذاری با :</string>
+    <string name="kurdia_utils_share_from">اشتراک گذاری از :</string>
+
+    <!-- SharedPreferences -->
+    <string name="kurdia_utils_shp_app">SHP_Kurdia_Utils</string>
+
+    <!-- Directories -->
+
+    <string name="dir_app">.files</string>
+    <string name="kurdia_utils_dir_date">.S20171504</string>
+    <string name="kurdia_utils_dir_dev">.HK13670922</string>
+    <string name="kurdia_utils_dir_one">KurdiaUtil</string>
+    <string name="kurdia_utils_dir_two">.Kaveh20171504</string>
+    <string name="kurdia_utils_dir_three">.Hossein20171504</string>
+    <string name="kurdia_utils_dir_four">.Kurd20171504</string>
+
+    <!-- Font -->
+    <string name="kurdia_utils_app_font_normal">font/IRANSansMobile.ttf</string>
+    <string name="kurdia_utils_app_font_bold">font/IRANSansMobile_Bold.ttf</string>
+    <string name="kurdia_utils_app_font_light">font/IRANSansMobile_Light.ttf</string>
+    <string name="kurdia_utils_app_font_ultra_light">font/IRANSansMobile_UltraLight.ttf</string>
+    <string name="kurdia_utils_app_font_italic">font/IRANSansMobile_Italic.ttf</string>
+
+    <!-- Messages -->
+    <string name="kurdia_utils_file_not_found_exception_message">متاسفانه فایل یافت نشد</string>
+
+</resources>
