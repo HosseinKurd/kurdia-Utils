@@ -13,12 +13,12 @@ It Provides usable Methods And Classes to you
 
 # Installation
 
-**Add permissions in your `AndroidManifest.xml`**
+**Add these permissions to `AndroidManifest.xml`**
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-**Adding Dependency**
+**Add Dependency**
 
 Step 1. Add the JitPack repository to your build file
 
