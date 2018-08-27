@@ -19,6 +19,6 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.HosseinKurd:kurdia-Utils:-SNAPSHOT'
+	        implementation 'com.github.HosseinKurd:kurdia-Utils:v0.5.0'
 	}
 
