@@ -2,10 +2,23 @@
 
 [![](https://jitpack.io/v/HosseinKurd/kurdia-Utils.svg)](https://jitpack.io/#HosseinKurd/kurdia-Utils)
 
+[![NPM version](https://img.shields.io/badge/version-0.5.0-brightgreen.svg)](https://github.com/HosseinKurd/kurdia-Utils)
+![NPM version](https://img.shields.io/badge/min%20sdk-19-brightgreen.svg)
+
+# Requirements
+- IDE : android studio
+- Minimum SDK : 19
+
 It Provides usable Methods And Classes to you 
 
-How to
-To get a Git project into your build:
+# Installation
+
+**Add permissions in your `AndroidManifest.xml`**
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+**Adding Dependency**
 
 Step 1. Add the JitPack repository to your build file
 
