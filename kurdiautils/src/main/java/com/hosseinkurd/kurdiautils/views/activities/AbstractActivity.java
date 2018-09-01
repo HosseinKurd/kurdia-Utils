@@ -60,7 +60,6 @@ public abstract class AbstractActivity extends AppCompatActivity {
         UIH.getScreenDetail(getActivity());
         UIH.createDirectories(getActivity());
         setPreView();
-        setResources();
     }
 
     /**

@@ -35,7 +35,7 @@ public abstract class AbsBaseFrg extends Fragment {
     protected abstract void setPreView();
 
     /**
-     * @param view Fragment Veew To get UI Elements
+     * @param view Fragment View To get UI Elements
      */
     protected abstract void setResources(View view);
 }
