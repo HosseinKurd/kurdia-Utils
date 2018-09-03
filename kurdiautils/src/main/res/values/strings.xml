@@ -17,11 +17,11 @@
     <string name="kurdia_utils_dir_four">.Kurd20171504</string>
 
     <!-- Font -->
-    <string name="kurdia_utils_app_font_normal">font/IRANSansMobile.ttf</string>
-    <string name="kurdia_utils_app_font_bold">font/IRANSansMobile_Bold.ttf</string>
-    <string name="kurdia_utils_app_font_light">font/IRANSansMobile_Light.ttf</string>
-    <string name="kurdia_utils_app_font_ultra_light">font/IRANSansMobile_UltraLight.ttf</string>
-    <string name="kurdia_utils_app_font_italic">font/IRANSansMobile_Italic.ttf</string>
+    <string name="kurdia_utils_app_font_normal">fonts/IRANSansMobile.ttf</string>
+    <string name="kurdia_utils_app_font_bold">fonts/IRANSansMobile_Bold.ttf</string>
+    <string name="kurdia_utils_app_font_light">fonts/IRANSansMobile_Light.ttf</string>
+    <string name="kurdia_utils_app_font_ultra_light">fonts/IRANSansMobile_UltraLight.ttf</string>
+    <string name="kurdia_utils_app_font_italic">fonts/IRANSansMobile_Italic.ttf</string>
 
     <!-- Messages -->
     <string name="kurdia_utils_file_not_found_exception_message">متاسفانه فایل یافت نشد</string>
