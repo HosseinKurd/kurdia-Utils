@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/HosseinKurd/kurdia-Utils.svg)](https://jitpack.io/#HosseinKurd/kurdia-Utils)
 
-[![NPM version](https://img.shields.io/badge/version-0.5.0-brightgreen.svg)](https://github.com/HosseinKurd/kurdia-Utils)
+[![NPM version](https://img.shields.io/badge/version-1.5.20-brightgreen.svg)](https://github.com/HosseinKurd/kurdia-Utils)
 ![NPM version](https://img.shields.io/badge/min%20sdk-19-brightgreen.svg)
 
 # Requirements
@@ -33,6 +33,6 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.HosseinKurd:kurdia-Utils:00.50.00'
+	        implementation 'com.github.HosseinKurd:kurdia-Utils:1.5.20'
 	}
 
