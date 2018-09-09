@@ -56,6 +56,10 @@ public class CacheHelper {
         editor.apply();
     }
 
+    public void apply(Context context, int resId, long value) {
+        apply(context, context.getString(resId), value);
+    }
+
     public void apply(Context context, String key, long value) {
         SharedPreferences.Editor editor = getSharedPreferences(context).edit();
         editor.putLong(key, value);
@@ -66,6 +70,10 @@ public class CacheHelper {
         SharedPreferences.Editor editor = getSharedPreferences(context).edit();
         editor.putBoolean(key, value);
         editor.apply();
+    }
+
+    public void apply(Context context, int resId, boolean value) {
+        apply(context, context.getString(resId), value);
     }
 
     public String getString(Context context, int resId, String defValue) {
