@@ -78,9 +78,12 @@ public abstract class AbstractActivity extends AppCompatActivity {
     protected void setFragment(AbsBaseFrg f, @IdRes int resId) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
-        ft.replace(resId, f, f.getClass().getName())
-                // .addToBackStack(f.getClass().getName())
-                .commit();
+        if (fragmentManager.findFragmentById(resId) == null) {
+            ft.add(resId, f, f.getClass().getName());
+        } else {
+            ft.replace(resId, f, f.getClass().getName());
+        }
+        ft.commit();
     }
 
     /**
@@ -92,7 +95,11 @@ public abstract class AbstractActivity extends AppCompatActivity {
     protected void setFragment(AbsBaseFrg f, @IdRes int resId, boolean addToBackStack) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
-        ft.replace(resId, f, f.getClass().getName());
+        if (fragmentManager.findFragmentById(resId) == null) {
+            ft.add(resId, f, f.getClass().getName());
+        } else {
+            ft.replace(resId, f, f.getClass().getName());
+        }
         if (addToBackStack) {
             ft.addToBackStack(f.getClass().getName());
         }
