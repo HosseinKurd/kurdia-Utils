@@ -35,4 +35,3 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.HosseinKurd:kurdia-Utils:1.6.2'
 	}
-
